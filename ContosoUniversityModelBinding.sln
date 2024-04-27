@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversityModelBinding", "ContosoUniversityModelBinding\ContosoUniversityModelBinding.csproj", "{28DD65CA-ACB0-4D5A-B5E4-F73B1E28FD98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28DD65CA-ACB0-4D5A-B5E4-F73B1E28FD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DD65CA-ACB0-4D5A-B5E4-F73B1E28FD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DD65CA-ACB0-4D5A-B5E4-F73B1E28FD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DD65CA-ACB0-4D5A-B5E4-F73B1E28FD98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06914E66-20DC-4BFB-A845-750E5BCCA024}
+	EndGlobalSection
+EndGlobal
