@@ -5,22 +5,20 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using ContosoUniversityModelBinding.Models;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Web.ModelBinding;
-
+using System.Data.Entity;
 
 namespace ContosoUniversityModelBinding
 {
-    public partial class Students : Page
+    public partial class Courses : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-        protected void studentsGrid_CallingDataMethods(object sender, CallingDataMethodsEventArgs e)
+        protected void coursesGrid_CallingDataMethods(object sender, CallingDataMethodsEventArgs e)
         {
-            e.DataMethodsObject = new BLL.SchoolBL();
+            e.DataMethodsObject = new ContosoUniversityModelBinding.BLL.SchoolBL();
         }
     }
 }

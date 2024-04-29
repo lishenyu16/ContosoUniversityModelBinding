@@ -4,7 +4,8 @@
     <asp:ValidationSummary runat="server" ShowModelStateErrors="true" />
     <asp:FormView runat="server" ID="addStudentForm"
         ItemType="ContosoUniversityModelBinding.Models.Student"
-        InsertMethod="addStudentForm_InsertItem" DefaultMode="Insert"
+        InsertMethod="InsertStudent" DefaultMode="Insert"
+        OnCallingDataMethods="addStudentForm_CallingDataMethods"
         RenderOuterTable="false" OnItemInserted="addStudentForm_ItemInserted">
         <InsertItemTemplate>
             <fieldset>

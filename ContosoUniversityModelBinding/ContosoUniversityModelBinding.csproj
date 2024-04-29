@@ -280,6 +280,7 @@
     <Content Include="Content\themes\Supercharged\images\ui-icons_ffbc0f_256x240.png" />
     <Content Include="Content\themes\Supercharged\images\ui-icons_ffc905_256x240.png" />
     <Content Include="Content\themes\Supercharged\jquery-ui-1.9.0.custom.css" />
+    <Content Include="Courses.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DynamicData\EntityTemplates\Default.ascx" />
     <Content Include="DynamicData\EntityTemplates\Default_Edit.ascx" />
@@ -505,12 +506,20 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="BLL\SchoolBL.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Courses.aspx.cs">
+      <DependentUpon>Courses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Courses.aspx.designer.cs">
+      <DependentUpon>Courses.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
